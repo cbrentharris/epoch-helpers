@@ -51,3 +51,38 @@ epoch_helpers --days-since -y 2016 -m 1 -d 1
 epoch_helpers --days-since 2016/1/1 --date-format %Y/%m/%d
 346
 ```
+
+Months Helpers
+------
+
+When you have a **date** and would like to conver it to the **number of months since epoch**:
+```shell
+epoch_helpers --months-since-epoch -y 2016 -m 1 -d 1
+552
+epoch_helpers --months-since-epoch 2016-01-01
+552
+epoch_helpers --months-since-epoch 2016/1/1 --date-format %Y/%m/%d
+552
+```
+
+When you have the **number of months since epoch** and would like to convert it to a **date**:
+```shell
+epoch_helpers --months-to-date 552
+2016-01-01 00:00:00
+```
+
+When you would like to know the **date** a certain **number of months ago**:
+```shell
+epoch_helpers --months-ago 7
+2016-05-13 07:55:29.005747
+```
+
+When you would liek to know the **number of months** since a specific **date**:
+```shell
+epoch_helpers --months-since 2014-05-22
+31
+epoch_helpers --months-since -y 2014 -m 5 -d 22
+31
+epoch_helpers --months-since 5/22/2014 --date-format %m/%d/%Y
+31
+```
