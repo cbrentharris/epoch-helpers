@@ -10,6 +10,12 @@ Installation
 pip install Epoch-Helpers
 ```
 
+Or alternatively
+
+```shell
+git clone git@github.com:cbrentharris/epoch-helpers.git && cd epoch-helpers && python setup.py install
+```
+
 Days Helpers
 ------
 
