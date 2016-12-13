@@ -3,6 +3,13 @@ Epoch Helpers
 
 A command line utility for helping with comparing the number of days or months since epoch and other dates.
 
+Installation
+------
+
+```shell
+pip install Epoch-Helpers
+```
+
 Days Helpers
 ------
 
