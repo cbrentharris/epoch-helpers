@@ -1,2 +1,3 @@
 nose
 freezegun
+python-dateutil
